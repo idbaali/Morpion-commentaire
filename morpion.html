@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Morpion</title>
+  <link href="morpion.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="titre">Super Morpion</div>
+<div class="jeu">
+<table id="center">
+  <tbody>
+    <tr>
+      <td class="carre" id="Zonea1" onclick="jouer('Zonea1');"></td>
+      <td class="carre" id="Zonea2"  onclick="jouer('Zonea2');"></td>
+      <td class="carre" id="Zonea3"  onclick="jouer('Zonea3');"></td>
+    </tr>
+    <tr>
+      <td class="carre" id="Zoneb1"  onclick="jouer('Zoneb1');"></td>
+      <td class="carre" id="Zoneb2" onclick="jouer('Zoneb2');"></td>
+      <td class="carre" id="Zoneb3" onclick="jouer('Zoneb3');"></td>
+    </tr>
+    <tr>
+      <td class="carre" id="Zonec1" onclick="jouer('Zonec1');"></td>
+      <td class="carre" id="Zonec2" onclick="jouer('Zonec2');"></td>
+      <td class="carre" id="Zonec3" onclick="jouer('Zonec3');"></td>
+    </tr>
+  </tbody>
+</table></div>
+<div id="rejouer"> <button type="button" class="bouton" onclick="initialisation();">Rejouer</button> </div>
+<script src="morpion.js"></script>
+</body>
+</html>
